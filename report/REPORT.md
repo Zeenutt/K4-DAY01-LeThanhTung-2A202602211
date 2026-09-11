@@ -8,7 +8,15 @@
 
 **Checkpoint:** `yolo11n-cls.pt`, `yolo11n.pt`, `yolo11n-seg.pt`
 
-**Thay đổi so với notebook nguồn:** Không
+**Thay đổi so với notebook nguồn:** 
+
+- Thêm 2 cell: 
+  ```notebook-python
+  !zip -r day1_lab_outputs.zip day1_lab_outputs
+
+  from google.colab import files
+  files.download('day1_lab_outputs.zip')
+  ```
 
 > ZIP do notebook tạo có tên `KX-DAY01-report.zip`. Giải nén rồi đặt trực tiếp `REPORT.md` và
 > `day1_lab_outputs/` vào thư mục `report/` của repository tạo từ template. Không ghi họ tên, MSSV,
